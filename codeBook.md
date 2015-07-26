@@ -2,7 +2,7 @@
 
 The following steps were taken to prepare the data set according to project requirements:
 
-## REad in all temporaty data
+## Read in all temporary data
 - trainX was used to read in the data X_train.txt
 - trainY was used to read in the data Y_train.txt
 - testX was used to read in the data X_test.txt
@@ -23,7 +23,7 @@ The following steps were taken to prepare the data set according to project requ
 - measurementsX was then subset based on meanStdColumnNames
 - the columns of measurementX were then set using the data table features
 
-## Used decriptive activity names in the data set
+## Used descriptive activity names in the data set
 - replaced column V1 of measurementsY with equivalent values in table
   activities
 - Named columns for SUBJECT and ACTIVITY in measurementY and subjects,
@@ -33,7 +33,7 @@ The following steps were taken to prepare the data set according to project requ
 - measurements now stores the tables measurementsX, measurementsY and subjects
   using cbind() funtions
 
-## Created te final, tidy data set having means of variables grouped per activity and subject
-- used ddply on table measurements which was on grouped for columsn SUBJECT and
+## Created the final, tidy data set having means of variables grouped per activity and subject
+- used ddply on table measurements which was on grouped for columns SUBJECT and
   ACTIVITY, getting means of all columns
 - used write.table as per instructions in the project submission instructions.
