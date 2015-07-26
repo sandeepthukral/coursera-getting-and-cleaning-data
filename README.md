@@ -1,3 +1,6 @@
+# Coursera Getting and Cleaing Data
+
+## Introduction
 This is the Github repository for the Coursera course 'Getting and Cleaning
 Data' project.
 
@@ -11,7 +14,7 @@ This submission includes:
 - a code book that describes the the data and how it was cleaned up
 - a README.md that explains how the project was carried out
 
-Data source
+## Data source
 
 "One of the most exciting areas in all of data science right now is wearable
 computing - see for example this article . Companies like Fitbit, Nike, and
@@ -26,7 +29,7 @@ Here are the data for the project:
 
 [Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-Data Analysis
+## Data Analysis
 
 The script run_analysis.R meets the following requirements:
 1. Merges the training and the test sets to create one data set.
